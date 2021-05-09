@@ -29,63 +29,76 @@
                 src="etc/images/icons/codepen.png" alt="My CodePen">CodePen</a></li>
           <li class="vertical-menu-item"><a href="mailto:codecannamw@gmail.com"><img class="off-canvas-icon"
                 src="etc/images/icons/Mail.png" alt="Contact">Contact Me</a></li>
-          <li class="vertical-menu-item"></li><a target="_blank"
-            href="etc/docs/Mark_Resume_March_2021.pdf"><img class="off-canvas-icon" src="etc/images/icons/Mail.png"
-              alt="Contact">Resume</a></li>
+          <li class="vertical-menu-item"></li><a target="_blank" href="etc/docs/Mark_Resume_March_2021.pdf"><img
+              class="off-canvas-icon" src="etc/images/icons/Mail.png" alt="Contact">Resume</a></li>
         </ul>
       </div>
       <div class="off-canvas-content" data-off-canvas-content>
         <!-- Your page content lives here -->
 
-    <div class="title-bar">
-      <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
-      <div class="title-bar-left">
-        <span class="title-bar-title">Mark A Waid Jr</span>
+        <div class="title-bar">
+          <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
+          <div class="title-bar-left">
+            <span class="title-bar-title">Mark A Waid Jr</span>
+          </div>
+        </div>
+        <div id="imgContainer">
+          <img id="me" src="etc/images/me.jpg" alt="Me" />
+          <hr>
+          <div id="about-btn-show">
+            <span>&#10093;</span>
+          </div>
+        </div>
+        <!-- Hidden About me section -->
+        <section id="about-me">
+          <article>
+            <p class="about-me-p">
+              Hello World! My name is Mark Waid A.K.A <a href="#"
+                style="color: white; text-decoration: underline;">CodeCanna</a>, welcome to my portfolio page. I hope
+              that
+              you have a great experience!
+            </p>
+            <h1>About Me</h1>
+
+            <h3>How I Started</h3>
+            <p class="about-me-p">
+              I am a FullStack Web Developer located in Albuquerque, New Mexico. I am mostly self tought and have been
+              coding since 2012. I got hooked on coding in High School and have been coding ever since.
+            </p>
+            <h3>My Family</h3>
+            <p class="about-me-p">
+              I have a loving wife and fluffy four-legged children whom I love, my wife is my support system.
+            </p>
+            <h3>My Future Plans</h3>
+            <p class="about-me-p" style="margin-bottom: 0;">
+              I would love to be able to get my wife and I into our own house and finally have stable income. That is a
+              challenging thing to achieve these days. I also would love to continue my college education and earn a
+              masters
+              or even a PHD in some area of advanced computing.
+            </p>
+          </article>
+        </section>
       </div>
-    </div>
-    <div id="imgContainer">
-      <img id="me" src="etc/images/me.jpg" alt="Me" />
-      <hr>
-      <div id="about-btn-show">
-        <span>&#10093;</span>
+    </div><!-- Landing -->
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
       </div>
-    </div>
-    <section id="about-me" class="is-hidden">
-      <article>
-        <p class="about-me-p">
-          Hello World! My name is Mark Waid A.K.A <a href="#"
-            style="color: white; text-decoration: underline;">CodeCanna</a>, welcome to my portfolio page. I hope that
-          you have a great experience!
-        </p>
-        <h1>About Me</h1>
+    </footer>
 
-        <h3>How I Started</h3>
-        <p class="about-me-p">
-          I am a FullStack Web Developer located in Albuquerque, New Mexico. I am mostly self tought and have been
-          coding since 2012. I got hooked on coding in High School and have been coding ever since.
-        </p>
-        <h3>My Family</h3>
-        <p class="about-me-p">
-          I have a loving wife and fluffy four-legged children whom I love, my wife is my support system.
-        </p>
-        <h3>My Future Plans</h3>
-        <p class="about-me-p" style="margin-bottom: 0;">
-          I would love to be able to get my wife and I into our own house and finally have stable income. That is a
-          challenging thing to achieve these days. I also would love to continue my college education and earn a masters
-          or even a PHD in some area of advanced computing.
-        </p>
-      </article>
-    </section>
-  </div><!-- Landing -->
+    <!-- Bootstrap & friends -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/what-input/dist/what-input.js"></script>
+    <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
 
-  <!-- Bootstrap & friends -->
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/what-input/dist/what-input.js"></script>
-  <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
-  <script src="js/app.js"></script>
-
-  <!-- Custom JS -->
-  <script src="js/index.js"></script>
+    <!-- Custom JS -->
+    <script src="js/index.js"></script>
 </body>
 
 </html>
