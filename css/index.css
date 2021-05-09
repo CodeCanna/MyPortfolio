@@ -1,5 +1,9 @@
-/* Import Bulma's CSS */
-@import url("_settings.scss");
+.title-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 body,
 html {
   height: 100%;
@@ -62,9 +66,8 @@ section#about-me {
   overflow: hidden;
 }
 
-div#imgContainer {
-  margin-top: auto;
-  margin-bottom: auto;
+#imgContainer {
+  padding-top: 10rem;
 }
 
 img#me {
@@ -91,6 +94,7 @@ div#about-btn-show {
 div#about-btn-show span {
   border-radius: 1rem;
   border: 1px solid white;
+  color: white;
   padding: 1rem;
   cursor: pointer;
   display: inline-block;

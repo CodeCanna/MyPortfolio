@@ -1,10 +1,13 @@
-/* Import Bulma's CSS */
-@import url('_settings.scss');
-
 $landingBackgroundImage: url("../etc/images/landing_bg.JPG");
 $articleFontColor: white;
 $bodyBgColor: #69a3cd;
 $btnHover: silver;
+
+.title-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 body,
 html {
@@ -68,9 +71,8 @@ section#about-me {
     
 }
 
-div#imgContainer {
-    margin-top: auto;
-    margin-bottom: auto;
+#imgContainer {
+    padding-top: 10rem;
 }
 
 img#me {
@@ -97,6 +99,7 @@ div#about-btn-show {
 div#about-btn-show span {
     border-radius: 1rem;
     border: 1px solid white;
+    color: white;
     padding: 1rem;
     cursor: pointer;
     display: inline-block;
