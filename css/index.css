@@ -1,3 +1,5 @@
+/* Import Bulma's CSS */
+@import url("_settings.scss");
 body,
 html {
   height: 100%;
@@ -60,6 +62,11 @@ section#about-me {
   overflow: hidden;
 }
 
+div#imgContainer {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 img#me {
   width: 30rem;
   height: auto;
@@ -73,6 +80,35 @@ p.about-me-p {
   font-size: 1.1rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+div#about-btn-show {
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+div#about-btn-show span {
+  border-radius: 1rem;
+  border: 1px solid white;
+  padding: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+
+div#about-btn-show span:hover {
+  background-color: silver;
+  color: salmon;
+}
+
+.aboutMeBtnClicked {
+  transform: rotate(180deg) !important;
+}
+
+section#about-me article {
+  padding: 1rem !important;
+  background-color: rgba(192, 192, 192, 0.2);
 }
 
 /*# sourceMappingURL=index.css.map */
